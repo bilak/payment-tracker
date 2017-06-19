@@ -1,0 +1,10 @@
+logging:
+  level.org: error
+  level.com.github.bilak: DEBUG
+
+
+application:
+  task:
+    balancePrinter:
+      cron: 0 * * * * *
+
